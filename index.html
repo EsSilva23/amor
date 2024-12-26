@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum de Fotos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="overlay" id="overlay">
+        <div class="overlay-content">
+            <h1>Álbum de Fotos</h1>
+            <h3>Para a minha surtada ❤️</h3>
+            <button id="playButton">❤️ Clique para iniciar ❤️</button>
+        </div>
+    </div>
+
+    <div class="album-container hidden" id="albumContainer">
+        <h1>Para o meu amor</h1>
+
+        <div class="photo-display">
+            <button class="nav-button prev" id="prevButton">&#10094;</button>
+            <img id="current-photo" src="assets/foto-1.jpg" alt="Foto Atual">
+            <button class="nav-button next" id="nextButton">&#10095;</button>
+        </div>
+
+        <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+        <div class="text-content">
+            <p>
+                Amor,<br><br>
+                Sei que às vezes eu não demonstro o suficiente, mas saiba que eu te amo muito mesmo.<br>
+                Tu também sabe que eu não sou bom com palavras, mas quero te dizer que você foi meu melhor presente de
+                2023.<br><br>
+                Estar passando contigo mais um ano juntos é, de verdade, a melhor coisa que eu poderia desejar.<br><br>
+                Agradeço a Deus e a Nossa Senhora sempre por ter colocado você em minha vida, pois eu já nem queria
+                saber mais de relacionamento, e hoje não consigo me imaginar sem te ter comigo.<br><br>
+                Por isso eu fico triste quando você está perto de ir embora, por isso eu não gosto de sair do teu
+                lado.<br><br>
+                Porque eu realmente acho que estou dependente de Helena, dependente de tu.<br><br>
+                Sei que já tivemos nossas divergências, mas o que seria de um casal que pensa tão diferente e tão igual
+                ao
+                mesmo tempo, sem alguns atritos, não é?!<br><br>
+                E outra, acredito que essas discussões só serviram pra nos fortalecer ainda mais em nosso
+                relacionamento.<br><br>
+                Enfim, te amo muito mesmo, e obrigado por tudo, meu amor.<br><br>
+                Com carinho,<br>
+                <strong>Seu Pretinho. ❤️</strong>
+            </p>
+        </div>
+
+        <div class="music-player">
+            <audio id="albumMusic" src="audio/dependente-sorriso-maroto.mp3" controls></audio>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
